@@ -1,0 +1,46 @@
+.stories > h3{
+    margin: 6.2vh 0 3.2vh 0;
+    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+}
+.stories__conteiner{
+    margin: 2.6vh 8vw ;
+}
+.stories__item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.3vh;
+}
+.stories__photo{
+    width: 28vw;
+}
+.stories__content{
+    width: 60%;
+    & h4{
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.3vw;
+        line-height: 3.3vh;
+        color: #0D606F;
+        margin-bottom: 1.6vh;
+    }
+    & p {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        line-height: 4vh;
+        color: #0D606F;
+        text-align: left;
+        margin-left: 2.6vw;
+    }
+}
+.stories__bg{
+    opacity: 0.3;
+
+}
