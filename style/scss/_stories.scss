@@ -1,0 +1,45 @@
+
+
+.backimg{
+    background-image: url(../../img/storiesBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 765px;
+    height: auto;
+    z-index: -1;
+    max-width: 100%;
+    bottom: 0px;
+}   
+.stories{   
+    background-color: rgba(255, 255, 255, 0.7);;
+}
+.stories__item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    flex-direction: row;
+}
+.item__text{
+    text-align: start;
+    margin-left: 15px;
+    width: 60%;
+    
+    & h4 {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #0D606F;
+        margin: 0;
+    }
+    & p {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0D606F;
+        margin-top: 4px;
+    }
+}

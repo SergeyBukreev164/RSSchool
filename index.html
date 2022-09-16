@@ -2,13 +2,160 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style/css/style.css">
     <title>Trevel</title>
 </head>
 <body>
-    <div class="nav">navigator</div>
-    <div class="main">navigator MAIN</div>
+   <div class="bgImageHeader ">
+    <!-- <img class="bgimg" src="img/bgimgheader.png" alt="mauntains"> -->
+        <header>
+            <div class="conteiner">
+                <div class="header__content ">
+                    <div class="logo">
+                        <img class="logoimg" src="img/VectorLogo.svg" alt="">
+                        <p class="logo__name">Travel Portal</p>
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li class="nav__item">How it works</li>
+                            <li class="nav__item">Plan Your Trip</li>
+                            <li class="nav__item">Destinations</li>
+                            <li class="nav__item">Travel Stories</li>
+                        </ul>
+                    </nav>
+                    <button class="btn">Login</button>
+                    <!-- mobile burger -->
+                    <div class="burger__btn hide">
+                        <img src="img/eva_menu-outline.png" alt="">
+                    </div>
+                    <div class="mobile__menu hide">
+                        <div class="mobile__close">X</div>
+                        <ul>
+                            <li class="nav__item mobile">How it works</li>
+                            <li class="nav__item mobile">Plan Your Trip</li>
+                            <li class="nav__item mobile">Destinations</li>
+                            <li class="nav__item mobile">Travel Stories</li>
+                        </ul>
+                    </div>
+                    <!-- mobile burger -->    
+
+                </div> 
+            </div>       
+        </header>
+
+        <section class="preview ">
+            <div class="conteiner"> 
+                <h1 class="preview__title">Explore the beauty of <br> the World</h1>
+                <p class="preview__subtitle">Receive personalized recommendations for countries, hotels, activities and more</p>
+                <div class="form">
+                    <form class="form__items" action="#">
+                        <input class="form__text" type="text" placeholder="What would you like to do?">
+                        <input class="form__btn btn" type="submit" value="Start Planning">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>    
+        <section class="steps">
+            <div class="conteiner">
+                <div class="steps__title">
+                    <h3>3 STEPS TO THE PERFECT TRIP</h3>
+                </div>
+                <div class="steps__item">
+                    <div class="steps__elem">
+                        <img src="img/Vector.png" alt="" class="elem__img">
+                        <h4 class="elem__text">Lorem, ipsum dolor.</h4>
+                    </div>
+                    <div class="steps__elem">
+                        <img src="img/Vector (1).png" alt="" class="elem__img">
+                        <h4 class="elem__text">Lorem, ipsum dolor.</h4>
+                    </div>
+                    <div class="steps__elem">
+                        <img src="img/Vector (2).png" alt="" class="elem__img">
+                        <h4 class="elem__text">Lorem, ipsum dolor.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="destination">
+            <div class="conteiner">
+                <h3 class="destination__title">POPULAR DESTINATIONS</h3>
+                <div class="destination__slider">
+                    <div class="slider__line">   
+                        <img class="slider__img" src="img/slide1.png" alt="">
+                        <img class="slider__img" src="img/slide2.png" alt="">
+                        <img class="slider__img" src="img/slide3.png" alt="">
+                    </div>
+                    <div class="slider__nav">
+                        <div class="slidePrev"><button>(<<)</button></div>
+                        <div class="slideNext"><button>(>>)</button></div>
+
+                    </div>
+                </div>
+                <button class="btn">find more</button>
+            </div>
+        </section>
+
+
+    <div class="backimg">
+        <section class="stories">
+            <div class="conteiner">
+                <div class="stories__item">
+                    <div class="item__photo">
+                        <img class="stories__photo" src="img/Rectangle photo.png" alt="photo">
+                    </div>
+                    <div class="item__text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut accusantium assumenda id sed dolores atque eaque saepe, accusamus recusandae laudantium cum iure odio perspiciatis nihil dignissimos adipisci, unde facere exercitationem delectus architecto. Repellat, a?   </p>
+                    </div>
+                </div>
+                <div class="stories__item">
+                    <div class="item__photo">
+                        <img class="stories__photo" src="img/Rectangle photo.png" alt="photo">
+                    </div>
+                    <div class="item__text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut accusantium assumenda id sed dolores atque eaque saepe, accusamus recusandae laudantium cum iure odio perspiciatis nihil dignissimos adipisci, unde facere exercitationem delectus architecto. Repellat, a?   </p>
+                    </div>
+                </div>
+                <div class="stories__item">
+                    <div class="item__photo">
+                        <img class="stories__photo" src="img/Rectangle photo.png" alt="photo">
+                    </div>
+                    <div class="item__text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut accusantium assumenda id sed dolores atque eaque saepe, accusamus recusandae laudantium cum iure odio perspiciatis nihil dignissimos adipisci, unde facere exercitationem delectus architecto. Repellat, a?   </p>
+                    </div>
+                </div>
+                <div class="stories__item">
+                    <div class="item__photo">
+                        <img class="stories__photo" src="img/Rectangle photo.png" alt="photo">
+                    </div>
+                    <div class="item__text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut accusantium assumenda id sed dolores atque eaque saepe, accusamus recusandae laudantium cum iure odio perspiciatis nihil dignissimos adipisci, unde facere exercitationem delectus architecto. Repellat, a?   </p>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+    </div>
+    
+            
+    
+        
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+.mobile__menu{
+    background: #F2785C;
+    box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+    border-radius: 10px;
+    position: absolute;
+    right:5px;
+    top: 5px;
+}
+.mobile{
+    margin: 8px;
+}
+.mobile__close{
+    color: #fff;
+	width: 24px;
+	height: 24px;
+	margin: 5px 0 0 5px;
+	cursor: pointer;
+}
+.burger__btn{
+    display: none;
+}

@@ -1,0 +1,116 @@
+
+header{
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.bgImageHeader{
+    background-image: url(../../img/bgimgheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 765px;
+    height: auto;
+}
+.bgimg{
+    position: absolute;
+    z-index: -1;
+}   
+
+.header__content{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+   
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo__name{
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+.nav ul{
+    display: flex;
+    gap: 42px;
+}
+.nav__item{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn{
+    max-width: 103px;
+    max-height: 41px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+
+.preview__title{font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.preview__subtitle{
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    text-align: left;
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    max-width: 892px;
+    height: 95px;
+    
+}
+.form__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & input {
+        margin: 28px 0;
+    }
+}
+.form__text[placeholder]{
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+    outline: none;
+    border: none;
+    background:none;
+    width: 60%;
+}
+.form__text::placeholder{
+    color:#F2785C;
+}
+.form__btn{
+    max-width: 163px;
+    border:none;
+}
