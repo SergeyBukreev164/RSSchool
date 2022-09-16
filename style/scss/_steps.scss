@@ -1,47 +1,38 @@
 .steps{
     margin-top: 334px;
-    text-align: center;
+}
+.steps__item{
+    display: flex;
+    justify-content: space-around;
+
+}
+.steps__title h3 {
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 53px;
-    /* identical to box height */
     color: #F2785C;
+    text-align: center;
 }
 .steps__elem{
     display: flex;
-    gap: 20%;
-    justify-content: center;
-}
-.elem__icon{
-    background-color:#F2785C;
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 16px;
-    margin-top: 30px;
-    & img {
-        margin: 24px;
-        
-    }
-}
-.steps__icon{
-    display: flex;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    & h5 {
-        font-family: 'Aleo';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        /* identical to box height */
-
-
-        color: #0D606F;
-    }
+    align-items: center;
+    justify-content: space-around;
 }
-
+.elem__img{
+    background-color: #F2785C;;
+    border-radius: 16px;
+    padding: 25px;
+ 
+}
+.elem__text{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
     
+}
